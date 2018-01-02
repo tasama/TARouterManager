@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BAE12C41FFB2F9B00D7E07D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE12C31FFB2F9B00D7E07D /* main.m */; };
+		9BAE12C71FFB2F9B00D7E07D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE12C61FFB2F9B00D7E07D /* AppDelegate.m */; };
+		9BAE12CA1FFB2F9B00D7E07D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE12C91FFB2F9B00D7E07D /* ViewController.m */; };
+		9BAE12CD1FFB2F9B00D7E07D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BAE12CB1FFB2F9B00D7E07D /* Main.storyboard */; };
+		9BAE12CF1FFB2F9B00D7E07D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BAE12CE1FFB2F9B00D7E07D /* Assets.xcassets */; };
+		9BAE12D21FFB2F9B00D7E07D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BAE12D01FFB2F9B00D7E07D /* LaunchScreen.storyboard */; };
+		9BAE12E31FFB3B0200D7E07D /* ModuleEnterUrls.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BAE12E21FFB3B0200D7E07D /* ModuleEnterUrls.plist */; };
+		9BAE12E61FFB3B4200D7E07D /* EnterRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE12E51FFB3B4200D7E07D /* EnterRoom.m */; };
+		9BAE12EA1FFB3C8000D7E07D /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE12E91FFB3C8000D7E07D /* NewViewController.m */; };
+		9BC7CDA01FFB431B00EF5812 /* TARouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC7CD9C1FFB431B00EF5812 /* TARouterManager.m */; };
+		9BC7CDA11FFB431B00EF5812 /* TARouterUrls.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC7CD9F1FFB431B00EF5812 /* TARouterUrls.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9BAE12BF1FFB2F9B00D7E07D /* TARouterManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TARouterManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BAE12C31FFB2F9B00D7E07D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BAE12C51FFB2F9B00D7E07D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9BAE12C61FFB2F9B00D7E07D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9BAE12C81FFB2F9B00D7E07D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9BAE12C91FFB2F9B00D7E07D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9BAE12CC1FFB2F9B00D7E07D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BAE12CE1FFB2F9B00D7E07D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BAE12D11FFB2F9B00D7E07D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BAE12D31FFB2F9B00D7E07D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BAE12E21FFB3B0200D7E07D /* ModuleEnterUrls.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ModuleEnterUrls.plist; sourceTree = "<group>"; };
+		9BAE12E41FFB3B4200D7E07D /* EnterRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterRoom.h; sourceTree = "<group>"; };
+		9BAE12E51FFB3B4200D7E07D /* EnterRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterRoom.m; sourceTree = "<group>"; };
+		9BAE12E81FFB3C8000D7E07D /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		9BAE12E91FFB3C8000D7E07D /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
+		9BC7CD9A1FFB431B00EF5812 /* TARouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TARouter.h; sourceTree = "<group>"; };
+		9BC7CD9B1FFB431B00EF5812 /* TARouterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TARouterManager.h; sourceTree = "<group>"; };
+		9BC7CD9C1FFB431B00EF5812 /* TARouterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TARouterManager.m; sourceTree = "<group>"; };
+		9BC7CD9D1FFB431B00EF5812 /* TARouterManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TARouterManagerDelegate.h; sourceTree = "<group>"; };
+		9BC7CD9E1FFB431B00EF5812 /* TARouterUrls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TARouterUrls.h; sourceTree = "<group>"; };
+		9BC7CD9F1FFB431B00EF5812 /* TARouterUrls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TARouterUrls.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BAE12BC1FFB2F9B00D7E07D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BAE12B61FFB2F9B00D7E07D = {
+			isa = PBXGroup;
+			children = (
+				9BAE12C11FFB2F9B00D7E07D /* TARouterManager */,
+				9BAE12C01FFB2F9B00D7E07D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BAE12C01FFB2F9B00D7E07D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BAE12BF1FFB2F9B00D7E07D /* TARouterManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BAE12C11FFB2F9B00D7E07D /* TARouterManager */ = {
+			isa = PBXGroup;
+			children = (
+				9BC7CD991FFB431B00EF5812 /* RouterManager */,
+				9BAE12C51FFB2F9B00D7E07D /* AppDelegate.h */,
+				9BAE12C61FFB2F9B00D7E07D /* AppDelegate.m */,
+				9BAE12C81FFB2F9B00D7E07D /* ViewController.h */,
+				9BAE12C91FFB2F9B00D7E07D /* ViewController.m */,
+				9BAE12E41FFB3B4200D7E07D /* EnterRoom.h */,
+				9BAE12E51FFB3B4200D7E07D /* EnterRoom.m */,
+				9BAE12E81FFB3C8000D7E07D /* NewViewController.h */,
+				9BAE12E91FFB3C8000D7E07D /* NewViewController.m */,
+				9BAE12E21FFB3B0200D7E07D /* ModuleEnterUrls.plist */,
+				9BAE12CB1FFB2F9B00D7E07D /* Main.storyboard */,
+				9BAE12CE1FFB2F9B00D7E07D /* Assets.xcassets */,
+				9BAE12D01FFB2F9B00D7E07D /* LaunchScreen.storyboard */,
+				9BAE12D31FFB2F9B00D7E07D /* Info.plist */,
+				9BAE12C21FFB2F9B00D7E07D /* Supporting Files */,
+			);
+			path = TARouterManager;
+			sourceTree = "<group>";
+		};
+		9BAE12C21FFB2F9B00D7E07D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BAE12C31FFB2F9B00D7E07D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BC7CD991FFB431B00EF5812 /* RouterManager */ = {
+			isa = PBXGroup;
+			children = (
+				9BC7CD9A1FFB431B00EF5812 /* TARouter.h */,
+				9BC7CD9B1FFB431B00EF5812 /* TARouterManager.h */,
+				9BC7CD9C1FFB431B00EF5812 /* TARouterManager.m */,
+				9BC7CD9D1FFB431B00EF5812 /* TARouterManagerDelegate.h */,
+				9BC7CD9E1FFB431B00EF5812 /* TARouterUrls.h */,
+				9BC7CD9F1FFB431B00EF5812 /* TARouterUrls.m */,
+			);
+			path = RouterManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BAE12BE1FFB2F9B00D7E07D /* TARouterManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BAE12D61FFB2F9B00D7E07D /* Build configuration list for PBXNativeTarget "TARouterManager" */;
+			buildPhases = (
+				9BAE12BB1FFB2F9B00D7E07D /* Sources */,
+				9BAE12BC1FFB2F9B00D7E07D /* Frameworks */,
+				9BAE12BD1FFB2F9B00D7E07D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TARouterManager;
+			productName = TARouterManager;
+			productReference = 9BAE12BF1FFB2F9B00D7E07D /* TARouterManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BAE12B71FFB2F9B00D7E07D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = MoemoeTechnology;
+				TargetAttributes = {
+					9BAE12BE1FFB2F9B00D7E07D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = R274JYMH7M;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9BAE12BA1FFB2F9B00D7E07D /* Build configuration list for PBXProject "TARouterManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BAE12B61FFB2F9B00D7E07D;
+			productRefGroup = 9BAE12C01FFB2F9B00D7E07D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BAE12BE1FFB2F9B00D7E07D /* TARouterManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BAE12BD1FFB2F9B00D7E07D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BAE12D21FFB2F9B00D7E07D /* LaunchScreen.storyboard in Resources */,
+				9BAE12E31FFB3B0200D7E07D /* ModuleEnterUrls.plist in Resources */,
+				9BAE12CF1FFB2F9B00D7E07D /* Assets.xcassets in Resources */,
+				9BAE12CD1FFB2F9B00D7E07D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BAE12BB1FFB2F9B00D7E07D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BAE12EA1FFB3C8000D7E07D /* NewViewController.m in Sources */,
+				9BAE12CA1FFB2F9B00D7E07D /* ViewController.m in Sources */,
+				9BAE12E61FFB3B4200D7E07D /* EnterRoom.m in Sources */,
+				9BC7CDA01FFB431B00EF5812 /* TARouterManager.m in Sources */,
+				9BC7CDA11FFB431B00EF5812 /* TARouterUrls.m in Sources */,
+				9BAE12C71FFB2F9B00D7E07D /* AppDelegate.m in Sources */,
+				9BAE12C41FFB2F9B00D7E07D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9BAE12CB1FFB2F9B00D7E07D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BAE12CC1FFB2F9B00D7E07D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BAE12D01FFB2F9B00D7E07D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BAE12D11FFB2F9B00D7E07D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BAE12D41FFB2F9B00D7E07D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9BAE12D51FFB2F9B00D7E07D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BAE12D71FFB2F9B00D7E07D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R274JYMH7M;
+				INFOPLIST_FILE = TARouterManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moemoe.TARouterManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9BAE12D81FFB2F9B00D7E07D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R274JYMH7M;
+				INFOPLIST_FILE = TARouterManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moemoe.TARouterManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BAE12BA1FFB2F9B00D7E07D /* Build configuration list for PBXProject "TARouterManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BAE12D41FFB2F9B00D7E07D /* Debug */,
+				9BAE12D51FFB2F9B00D7E07D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BAE12D61FFB2F9B00D7E07D /* Build configuration list for PBXNativeTarget "TARouterManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BAE12D71FFB2F9B00D7E07D /* Debug */,
+				9BAE12D81FFB2F9B00D7E07D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BAE12B71FFB2F9B00D7E07D /* Project object */;
+}
